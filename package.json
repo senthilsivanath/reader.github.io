@@ -1,0 +1,55 @@
+{
+    "name": "reader",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "develop": "gatsby develop",
+      "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+      "start": "npm run develop",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "build": "gatsby build",
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/senthilsivanath/microservice-generator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/senthilsivanath/microservice-generator/issues"
+    },
+    "homepage": "https://github.com/senthilsivanath/microservice-generator#readme",
+    "dependencies": {
+      "bootstrap": "^5.1.0",
+      "bootstrap-icons": "^1.5.0",
+      "gatsby": "^3.9.1",
+      "gatsby-plugin-image": "^1.6.0",
+      "gatsby-plugin-manifest": "^3.6.0",
+      "gatsby-plugin-react-helmet": "^4.6.0",
+      "gatsby-plugin-sass": "^4.6.0",
+      "gatsby-plugin-sharp": "^3.6.0",
+      "gatsby-source-filesystem": "^3.6.0",
+      "gatsby-transformer-sharp": "^3.6.0",
+      "prop-types": "^15.7.2",
+      "react": "^17.0.2",
+      "react-bootstrap": "^2.0.0-beta.6",
+      "react-copy-to-clipboard": "^5.0.3",
+      "react-dom": "^17.0.2",
+      "react-helmet": "^6.1.0",
+      "react-markdown": "^6.0.2",
+      "react-redux": "^7.2.5",
+      "react-transition-group": "^4.4.2",
+      "redux-persist": "^6.0.0"
+    },
+    "devDependencies": {
+      "jest": "27.0.6",
+      "parcel-bundler": "1.12.5",
+      "sass": "^1.35.2",
+      "sass-loader": "^12.1.0",
+      "style-loader": "^3.1.0"
+    }
+  }
+  
